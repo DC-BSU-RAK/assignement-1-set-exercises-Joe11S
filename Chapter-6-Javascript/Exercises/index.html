@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Petrol Calculator</h1>
+        <!--enter inputs-->
+        <label for="cost">Enter Cost per Liter:</label>
+        <input title="Type the cost." id="cost" type="number" placeholder="Enter Cost per Liter">
+        <label for="liters">Enter Liters of Fuel:</label>
+        <input title="Type liters purchased." id="liters" type="number" placeholder="Enter Liters of Fuel"><br>
+        <!--display result-->
+        <p>Cost: $<span id="result">0.00</span></p><br>
+        <button title="Click to calculate the petrol cost" id="calculateButton">Calculate</button>
+        <button title="Click to reset!" id="resetButton">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
