@@ -49,3 +49,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+
+main::after {
+    content: "";
+    display: table;
+    clear: both; /* To clear floats inside <main> */
+  }
+
+  
