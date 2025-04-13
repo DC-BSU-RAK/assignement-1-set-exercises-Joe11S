@@ -1,0 +1,11 @@
+/* Apply Arial font to all text */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Add a white to blue gradient background to the index.html */
+body {
+    background: linear-gradient(to bottom, white, skyblue);
+    padding: 40px;
+    border: 20px solid black;
+}
