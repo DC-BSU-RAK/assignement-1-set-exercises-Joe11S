@@ -1,0 +1,38 @@
+body {
+    background-image: radial-gradient(circle, white, springgreen);
+    display: flex; /* Enables Flexbox layout */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    height: 100vh; /* Makes the body height cover the entire viewport */
+    margin: 0; /* Removes default margin */
+}
+
+.flex-container {
+    display: flex; /* Enables Flexbox on this container */
+    flex-direction: row; /* Aligns items in a row */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    gap: 20px; /* Adds space between items */
+}
+
+.flex-container div {
+    text-align: center; /* Aligns text (figcaptions) within each image container */
+}
+
+#image1 {
+    border-radius: 10%;
+}
+
+#image2 {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#image3 {
+    border-radius: 50%;
+}
+
+#container figcaption {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
