@@ -1,5 +1,5 @@
 div.calculator {
-    background-color: rgb(39, 171, 248);
+    background-image: linear-gradient(rgb(39, 171, 248), rgb(23, 90, 129));
     padding: 20px;
     width : 800px;
     border: 10px solid black;
