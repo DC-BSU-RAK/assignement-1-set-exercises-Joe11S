@@ -10,14 +10,14 @@ body {
 }
 
 #header nav {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     text-align: center;
     font-size: 20px
 }
 
 #header h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:white;
     text-align: center;
     font-size: 60px;
@@ -31,7 +31,7 @@ body {
 
 #aside {
     text-align: left;
-    background-color: #172D66;
+    background-color: #172D67;
     margin: 0;
     padding: 0;
     width: 30%;
@@ -40,8 +40,12 @@ body {
     color: white;
 }
 
+#aside div {
+    text-align: center;
+}
+
 #footer {
-    background-image: linear-gradient(rgb(63, 0, 127), rgb(127, 0, 255));
+    background-color: #8c15e9;
     margin: 0;
     padding: 0;
     width: 100%;
